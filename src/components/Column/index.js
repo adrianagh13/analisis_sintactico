@@ -8,7 +8,6 @@ export const Column = ({color, height, opacity, text, anchor, source}) => {
       height={height}
       opacity={opacity}
     >
-
       {anchor ?
         <TextContainer>
           <StyledAnchor href="">
