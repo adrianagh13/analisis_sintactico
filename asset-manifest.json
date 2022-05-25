@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/analisis_sintactico/static/css/main.55b5a836.css",
-    "main.js": "/analisis_sintactico/static/js/main.d3ba5a09.js",
+    "main.js": "/analisis_sintactico/static/js/main.a1f6b563.js",
     "index.html": "/analisis_sintactico/index.html",
     "main.55b5a836.css.map": "/analisis_sintactico/static/css/main.55b5a836.css.map",
-    "main.d3ba5a09.js.map": "/analisis_sintactico/static/js/main.d3ba5a09.js.map"
+    "main.a1f6b563.js.map": "/analisis_sintactico/static/js/main.a1f6b563.js.map"
   },
   "entrypoints": [
     "static/css/main.55b5a836.css",
-    "static/js/main.d3ba5a09.js"
+    "static/js/main.a1f6b563.js"
   ]
 }
