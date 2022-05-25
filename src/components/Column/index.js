@@ -1,18 +1,17 @@
 import React from "react";
-import { ColumnContainer, StyledAnchor, TextContainer, Icon } from "./styled";
+import { ColumnContainer, TextContainer, Icon, StyledLink } from "./styled";
 
-export const Column = ({color, height, opacity, text, anchor, source}) => {
+export const Column = ({color, height, opacity, text, link, source, path, hover}) => {
   return (
     <ColumnContainer
       color={color}
       height={height}
       opacity={opacity}
+      hover={hover}
     >
-      {anchor ?
+      {link ?
         <TextContainer>
-          <StyledAnchor href="">
-            {text}
-          </StyledAnchor> 
+          <StyledLink to={path}>{text}</StyledLink>
           <Icon src={source}/>
         </TextContainer> : null
       }
