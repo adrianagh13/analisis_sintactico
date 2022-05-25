@@ -9,7 +9,7 @@ import DiagramsScreen from "./screens/DiagramsScreen";
 
 function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route  path="/" element={<Home />}/>
       <Route  path="/definicion-gramatica" element={<DefinitionScreen />}/>
