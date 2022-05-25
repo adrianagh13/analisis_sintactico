@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.55b5a836.css","mappings":"4FAEA,EACE,8BAAkC,CAClC,QACF","sources":["index.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand&display=swap');\n\n* {\n  font-family: 'DM Sans', sans-serif;\n  margin: 0;\n}"],"names":[],"sourceRoot":""}
