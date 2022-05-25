@@ -1,24 +1,28 @@
 import React from 'react'
 import { Container } from '../components/Container'
 import { ContainerGeneral } from '../components/Container/styled'
-import {gramaticas} from "../assets/images";
+import {gramaticas, tabla} from "../assets/images";
 
 function DefinitionScreen () {
   return (
     <div>
-      <ContainerGeneral height="420px" justify="center" column>
+      <ContainerGeneral height="400px" justify="center" column>
         <Container >
           <h1>Definición y clasificación de gramáticas</h1>
         </Container>
 
         <Container height="200px">
 
-          <Container column width="400px" height="150px">
+          <Container column width="400px" height="150px" color="#EF9F9F">
             ¿Qué es gramática?
-            <p>Chomsky la define como: “Descripción formalizada de las oraciones de un lenguaje. Una gramática genera o describe un lenguaje.”</p>
+            <p>Chomsky la define como:  <br />
+             “Descripción formalizada de las oraciones de  <br />
+             un lenguaje. Una gramática genera o describe  <br />
+             un lenguaje.”  <br />
+             </p>
           </Container>
 
-          <Container column width="500px" height="200px">
+          <Container column width="500px" height="200px" color="#EF9F9F">
             Definición formal
             <p>
               Una gramática es una cuádrupla: G = (VT, VN, S, P)
@@ -33,15 +37,15 @@ function DefinitionScreen () {
         </Container>
       </ContainerGeneral>
 
-      <ContainerGeneral height ="900px" column >
+      <ContainerGeneral height ="1200px" column>
         <h2>Jerarquía de las gramaticas</h2>
-        <img src={gramaticas} height="250px" alt='gramaticas'/>
+        <img src={gramaticas} height="300px" alt='gramaticas'/>
         
-        <ContainerGeneral  height="500px" column>
+        <ContainerGeneral  height="900px" column color='#FAD4D4'>
           <h2>La gramática de Chomsky consta de cuatro niveles:</h2>
-          <ContainerGeneral height="350px" align="flex-start">
+          <ContainerGeneral height="350px" align="flex-start" color='#FAD4D4'>
            
-            <ContainerGeneral column height="320px" width="20%">
+            <ContainerGeneral column height="320px" width="20%" color='#FFF2F2'>
               <p>GRAMÁTICAS TIPO 0</p>
               <p>
                 * Son no restringidas <br />
@@ -53,7 +57,7 @@ function DefinitionScreen () {
               </p>
             </ContainerGeneral>
 
-            <ContainerGeneral column height="240px" width="20%">
+            <ContainerGeneral column height="240px" width="20%" color='#FFF2F2'>
               <p>GRAMÁTICAS TIPO 1</p>
               <p>
                 * Sensitivas al contexto.<br />
@@ -63,7 +67,7 @@ function DefinitionScreen () {
               </p>
             </ContainerGeneral>
 
-            <ContainerGeneral column height="320px" width="20%">
+            <ContainerGeneral column height="320px" width="20%" color='#FFF2F2'>
               <p>GRAMÁTICAS TIPO 2</p>
               <p>
                 * Libre de contexto.<br />
@@ -75,7 +79,7 @@ function DefinitionScreen () {
               </p>
             </ContainerGeneral>
 
-            <ContainerGeneral column height="350px" width="25%">
+            <ContainerGeneral column height="350px" width="25%" color='#FFF2F2'>
               <p>GRAMÁTICAS TIPO 3</p>
               <p>
               * Gramáticas regulares. <br />
@@ -88,6 +92,7 @@ function DefinitionScreen () {
               </p>
             </ContainerGeneral>
           </ContainerGeneral>
+          <img src={tabla} alt='tabla' width="800px"/>
         </ContainerGeneral>
       </ContainerGeneral>
     </div>
