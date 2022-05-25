@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/analisis_sintactico/static/css/main.55b5a836.css",
-    "main.js": "/analisis_sintactico/static/js/main.a1f6b563.js",
+    "main.js": "/analisis_sintactico/static/js/main.864b97d8.js",
+    "static/media/glc.png": "/analisis_sintactico/static/media/glc.22ecd3341f7686837bf6.png",
+    "static/media/tabla-gramaticas.png": "/analisis_sintactico/static/media/tabla-gramaticas.b288d084a1a9a97b99d4.png",
+    "static/media/gramaticas.png": "/analisis_sintactico/static/media/gramaticas.3300660e98955e469d0d.png",
+    "static/media/glc2.png": "/analisis_sintactico/static/media/glc2.abd3d41e4bac67c0198b.png",
     "index.html": "/analisis_sintactico/index.html",
     "main.55b5a836.css.map": "/analisis_sintactico/static/css/main.55b5a836.css.map",
-    "main.a1f6b563.js.map": "/analisis_sintactico/static/js/main.a1f6b563.js.map"
+    "main.864b97d8.js.map": "/analisis_sintactico/static/js/main.864b97d8.js.map"
   },
   "entrypoints": [
     "static/css/main.55b5a836.css",
-    "static/js/main.a1f6b563.js"
+    "static/js/main.864b97d8.js"
   ]
 }
