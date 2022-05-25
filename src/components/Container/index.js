@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContainerGeneral } from './styled'
 
-export const Container = ({children, height, width, justify, column, align, padding, color}) => {
+export const Container = ({children, height, width, justify, column, align, padding, color, size}) => {
 
   return (
     <ContainerGeneral 
@@ -12,6 +12,7 @@ export const Container = ({children, height, width, justify, column, align, padd
       align={align}
       padding={padding}
       color={color}
+      size={size}
     >
       {children}
     </ContainerGeneral>

@@ -9,4 +9,5 @@ export const ContainerGeneral = styled.div`
   width: ${props => props.width? props.width : '100%'};
   height: ${props => props.height? props.height : '100px'};
   border-radius: 5px;
+  font-size: ${props => props.size ? props.size : '16px'}
 `

@@ -5,8 +5,8 @@ import {gramaticas, tabla} from "../assets/images";
 
 function DefinitionScreen () {
   return (
-    <div>
-      <ContainerGeneral height="400px" justify="center" column>
+    <>
+      <ContainerGeneral height="340px" justify="center" column>
         <Container >
           <h1>Definición y clasificación de gramáticas</h1>
         </Container>
@@ -37,14 +37,14 @@ function DefinitionScreen () {
         </Container>
       </ContainerGeneral>
 
-      <ContainerGeneral height ="1200px" column>
+      <ContainerGeneral height ="1300px" column>
         <h2>Jerarquía de las gramaticas</h2>
         <img src={gramaticas} height="300px" alt='gramaticas'/>
         
         <ContainerGeneral  height="900px" column color='#FAD4D4'>
           <h2>La gramática de Chomsky consta de cuatro niveles:</h2>
+
           <ContainerGeneral height="350px" align="flex-start" color='#FAD4D4'>
-           
             <ContainerGeneral column height="320px" width="20%" color='#FFF2F2'>
               <p>GRAMÁTICAS TIPO 0</p>
               <p>
@@ -92,10 +92,13 @@ function DefinitionScreen () {
               </p>
             </ContainerGeneral>
           </ContainerGeneral>
+
           <img src={tabla} alt='tabla' width="800px"/>
+
         </ContainerGeneral>
+        <p>video</p>
       </ContainerGeneral>
-    </div>
+    </>
   )
 }
 
