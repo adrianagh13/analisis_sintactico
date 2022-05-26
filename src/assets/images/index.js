@@ -7,6 +7,9 @@ import gramaticas from './gramaticas.png';
 import tabla from './tabla-gramaticas.png';
 import glc from './glc.png';
 import glc2 from './glc2.png';
+import def from './definicion-arboles.png';
+import properties from './propiedades-arboles.png';
+import example from './ejemplo-arboles.png';
 
 export {
   abc,
@@ -18,4 +21,7 @@ export {
   tabla,
   glc,
   glc2,
+  def,
+  properties,
+  example,
 }
