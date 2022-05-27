@@ -10,6 +10,7 @@ import glc2 from './glc2.png';
 import def from './definicion-arboles.png';
 import properties from './propiedades-arboles.png';
 import example from './ejemplo-arboles.png';
+import lenguaje from './lenguaje-chomsky.png';
 
 export {
   abc,
@@ -24,4 +25,5 @@ export {
   def,
   properties,
   example,
+  lenguaje
 }
