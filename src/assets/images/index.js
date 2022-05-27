@@ -11,6 +11,14 @@ import def from './definicion-arboles.png';
 import properties from './propiedades-arboles.png';
 import example from './ejemplo-arboles.png';
 import lenguaje from './lenguaje-chomsky.png';
+import terminal from './terminal.png';
+import noTerminal from './no-terminal.png';
+import grafo from './grafo.png';
+import constante from './constante.png';
+import representacion from './representacion.png';
+import sintaxis from './sintaxis.png';
+import ejemplo from './ejemplo-diagrama.png';
+import ejemplo2 from './ejemplo2.png';
 
 export {
   abc,
@@ -25,5 +33,13 @@ export {
   def,
   properties,
   example,
-  lenguaje
+  lenguaje,
+  terminal,
+  noTerminal,
+  grafo,
+  constante,
+  representacion,
+  sintaxis,
+  ejemplo,
+  ejemplo2
 }
