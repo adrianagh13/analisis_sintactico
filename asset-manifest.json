@@ -1,17 +1,29 @@
 {
   "files": {
     "main.css": "/analisis_sintactico/static/css/main.55b5a836.css",
-    "main.js": "/analisis_sintactico/static/js/main.864b97d8.js",
+    "main.js": "/analisis_sintactico/static/js/main.b70e661a.js",
+    "static/media/no-terminal.png": "/analisis_sintactico/static/media/no-terminal.5024c1a06c677cf47d89.png",
+    "static/media/definicion-arboles.png": "/analisis_sintactico/static/media/definicion-arboles.c5e9452edd59f5122079.png",
     "static/media/glc.png": "/analisis_sintactico/static/media/glc.22ecd3341f7686837bf6.png",
+    "static/media/grafo.png": "/analisis_sintactico/static/media/grafo.276c4fcb2c2aef0af64d.png",
+    "static/media/ejemplo-arboles.png": "/analisis_sintactico/static/media/ejemplo-arboles.025dbd8128f6ffeff2ce.png",
     "static/media/tabla-gramaticas.png": "/analisis_sintactico/static/media/tabla-gramaticas.b288d084a1a9a97b99d4.png",
     "static/media/gramaticas.png": "/analisis_sintactico/static/media/gramaticas.3300660e98955e469d0d.png",
+    "static/media/terminal.png": "/analisis_sintactico/static/media/terminal.b008040757cf739a7030.png",
+    "static/media/constante.png": "/analisis_sintactico/static/media/constante.1b51fc05d20827942f8c.png",
+    "static/media/sintaxis.png": "/analisis_sintactico/static/media/sintaxis.cbdbcba3e96585935359.png",
     "static/media/glc2.png": "/analisis_sintactico/static/media/glc2.abd3d41e4bac67c0198b.png",
+    "static/media/ejemplo-diagrama.png": "/analisis_sintactico/static/media/ejemplo-diagrama.e2647ed9f5455c6f7007.png",
+    "static/media/propiedades-arboles.png": "/analisis_sintactico/static/media/propiedades-arboles.9be2549e766da1078eb4.png",
+    "static/media/ejemplo2.png": "/analisis_sintactico/static/media/ejemplo2.2c9338bc7fde6885c9ca.png",
+    "static/media/lenguaje-chomsky.png": "/analisis_sintactico/static/media/lenguaje-chomsky.5a04520672d55e673253.png",
+    "static/media/representacion.png": "/analisis_sintactico/static/media/representacion.cdc501bb4bc0c6813fe4.png",
     "index.html": "/analisis_sintactico/index.html",
     "main.55b5a836.css.map": "/analisis_sintactico/static/css/main.55b5a836.css.map",
-    "main.864b97d8.js.map": "/analisis_sintactico/static/js/main.864b97d8.js.map"
+    "main.b70e661a.js.map": "/analisis_sintactico/static/js/main.b70e661a.js.map"
   },
   "entrypoints": [
     "static/css/main.55b5a836.css",
-    "static/js/main.864b97d8.js"
+    "static/js/main.b70e661a.js"
   ]
 }
