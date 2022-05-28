@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container } from '../components/Container'
 import { lenguaje } from '../assets/images'
+import ReactPlayer from 'react-player'
 
 function ChomskyScreen() {
   return (
     <>
-      <Container column height="1800px">
+      <Container column height="2100px">
         <h1>Formas normales de Chomksy</h1>
         <Container height="350px">
           <Container height="350px" width="70%">
@@ -71,8 +72,9 @@ function ChomskyScreen() {
           </Container>
         </Container>
 
-        <Container>
-          VIDEO
+        <Container height="450px" column>
+          <h2>Video explicativo</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=6krGKfLJtZ8'/>
         </Container>
 
       </Container>

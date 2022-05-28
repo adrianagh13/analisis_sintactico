@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container } from '../components/Container'
 import {glc, glc2} from "../assets/images";
+import ReactPlayer from 'react-player';
 
 
 function GLCScreen() {
   return (
     <>
-      <Container height="1200px" column>
+      <Container height="1700px" column>
         <h1>Gramáticas Libres de Contexto (GLC)</h1>
         <img src={glc} alt='glc' width="400px" he/>
 
@@ -57,7 +58,11 @@ function GLCScreen() {
             <img src={glc2} alt='glc2' width="300px"/>
           </Container>
         </Container>
-        <p>VIDEO</p>
+
+        <Container height="450px" column>
+          <h2>Video explicativo</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=kr9sum7mDmk'/>
+        </Container>
       </Container>
     </>
   )

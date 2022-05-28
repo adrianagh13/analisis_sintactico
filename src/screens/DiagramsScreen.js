@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container } from '../components/Container'
 import { terminal, noTerminal, grafo, constante, representacion, sintaxis, ejemplo, ejemplo2 } from '../assets/images'
+import ReactPlayer from 'react-player'
 
 function DiagramsScreen() {
   return (
     <>
-      <Container height="3300px" column>
+      <Container height="3850px" column>
         <h1>Diagramas de sintáxis</h1>
 
         <Container height="350px" column size="20px" > 
@@ -96,8 +97,9 @@ function DiagramsScreen() {
           <img src={ejemplo2} alt='ejemplo2' width="400px"/>
         </Container>
 
-        <Container>
-          VIDEO
+        <Container height="450px" column>
+          <h2>Video explicativo</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=fQuaEd2Em98'/>
         </Container>
       </Container>
     </>

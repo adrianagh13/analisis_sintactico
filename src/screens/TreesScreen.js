@@ -1,11 +1,12 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 import { def, example, properties } from '../assets/images'
 import { Container } from '../components/Container'
 
 function TreesScreen() {
   return (
     <>
-      <Container height="2000px" column>
+      <Container height="2200px" column>
         <h1>Árboles de derivación</h1>
 
         <Container height="250px">
@@ -54,9 +55,10 @@ function TreesScreen() {
         </Container>
 
 
-          <Container>
-            VIDEO
-          </Container>
+        <Container height="450px" column>
+          <h2>Video explicativo</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=QdWfLH61dLI'/>
+        </Container>
       </Container>
     </>
   )
