@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/analisis_sintactico/static/css/main.55b5a836.css",
-    "main.js": "/analisis_sintactico/static/js/main.b70e661a.js",
+    "main.js": "/analisis_sintactico/static/js/main.3393dfc5.js",
     "static/media/no-terminal.png": "/analisis_sintactico/static/media/no-terminal.5024c1a06c677cf47d89.png",
     "static/media/definicion-arboles.png": "/analisis_sintactico/static/media/definicion-arboles.c5e9452edd59f5122079.png",
     "static/media/glc.png": "/analisis_sintactico/static/media/glc.22ecd3341f7686837bf6.png",
@@ -20,10 +20,10 @@
     "static/media/representacion.png": "/analisis_sintactico/static/media/representacion.cdc501bb4bc0c6813fe4.png",
     "index.html": "/analisis_sintactico/index.html",
     "main.55b5a836.css.map": "/analisis_sintactico/static/css/main.55b5a836.css.map",
-    "main.b70e661a.js.map": "/analisis_sintactico/static/js/main.b70e661a.js.map"
+    "main.3393dfc5.js.map": "/analisis_sintactico/static/js/main.3393dfc5.js.map"
   },
   "entrypoints": [
     "static/css/main.55b5a836.css",
-    "static/js/main.b70e661a.js"
+    "static/js/main.3393dfc5.js"
   ]
 }
