@@ -2,10 +2,11 @@ import React from 'react'
 import { Container } from '../components/Container'
 import { ContainerGeneral } from '../components/Container/styled'
 import {gramaticas, tabla} from "../assets/images";
+import ReactPlayer from 'react-player';
 
 function DefinitionScreen () {
   return (
-    <>
+    <Container column height="2000px">
       <ContainerGeneral height="340px" justify="center" column>
         <Container >
           <h1>Definición y clasificación de gramáticas</h1>
@@ -37,7 +38,7 @@ function DefinitionScreen () {
         </Container>
       </ContainerGeneral>
 
-      <ContainerGeneral height ="1300px" column>
+      <ContainerGeneral height ="1600px" column>
         <h2>Jerarquía de las gramaticas</h2>
         <img src={gramaticas} height="300px" alt='gramaticas'/>
         
@@ -96,9 +97,12 @@ function DefinitionScreen () {
           <img src={tabla} alt='tabla' width="800px"/>
 
         </ContainerGeneral>
-        <p>video</p>
+        <Container height="450px" column>
+          <h2>Video explicativo</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=O9X94dZCpks'/>
+        </Container>
       </ContainerGeneral>
-    </>
+    </Container>
   )
 }
 
